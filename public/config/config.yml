@@ -1,51 +1,47 @@
-# Config version
-version: 0.3.5
+# ESTO ES UN COMENTARIO
+# Todo lo que está a la derecha de # es solo para nosotros
 
-# HTML Head settings
+version: 0.3.5 # NO TOCAR
+
+# HODL username
+username: rapax # < TU_USUARIO@hodl.ar
+
+# NOSTR Settings
+nostr: # Sin el # adelante
+  npub: npub1zrl8uvj2myhfrgkfzkf5hx35nlpp69w3n43c4ds769dlvhxeh80sexgael # Entre comillas dobles
+
+# Configuración Global
 html:
-  title: "La Crypta | Links"
-  google_analytics: "GTM-WZGV6DS"
+# title: Este valor no funciona porque esta comentado
+  title: Links | Gaspar Pelayo # Este es el Título que aparece en la pestaña de navegador
 
-# Theme settings
+# Colores de plantilla
 theme:
-  # background_color: "white"
-  cover_color: "#ff7070"
+  background_color: "#f9fafb"
+  # cover_color: "#ff7070"
 
-# Main container settings
+# Configuración Central
 main:
-  title: "LA CRYPTA"
-  # just replace your local file /public/images/profile.png
+  title: Gaspar (Rapax) Pelayo # Aca podes poner tu nombre o el de tu producto
 
-# Blocks list
+# Lista de bloques
 blocks:
-  - title: "Telegram"
-    icon: "telegram"
-    url: "https://t.me/lacryptaok"
+  - title: Twitter
+    icon: twitter
+    url: https://twitter.com/rapax00
+  
+  - title: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/gaspar-pelayo
 
-  - title: "Twitter"
-    icon: "twitter"
-    url: "https://twitter.lacrypta.com.ar"
+  - title: Github
+    icon: github
+    url: https://github.com/rapax00
+  
+  - title: Nostr
+    icon: nostr
+    url: https://iris.to/rapax@hodl.ar
 
-  - title: "Instagram"
-    icon: "instagram"
-    url: "https://instagram.lacrypta.com.ar"
-
-  - title: "Discord"
-    icon: "discord"
-    url: "https://discord.lacrypta.com.ar"
-
-  - title: "Nostr"
-    icon: "nostr"
-    url: "https://iris.to/lacrypta@hodl.ar"
-
-  - title: "Github"
-    icon: "github"
-    url: "https://github.lacrypta.com.ar"
-
-  - title: "Sitio Web"
-    icon: "url"
-    url: "https://www.lacrypta.com.ar/"
-
-  - title: "Donaciones"
-    icon: "lightning"
-    url: "https://39ad255340.d.voltageapp.io/lnurlp/link/JJ9Sn5"
+  - title: Telegram
+    icon: telegram
+    url: https://t.me/rapax00
