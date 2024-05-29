@@ -13,7 +13,7 @@ nostr: # Sin el # adelante
 # Configuración Global
 html:
 # title: Este valor no funciona porque esta comentado
-  title: Links | Gaspar Pelayo # Este es el Título que aparece en la pestaña de navegador
+  title: Links | Rapax # Este es el Título que aparece en la pestaña de navegador
 
 # Colores de plantilla
 theme:
@@ -22,17 +22,13 @@ theme:
 
 # Configuración Central
 main:
-  title: Gaspar (Rapax) Pelayo # Aca podes poner tu nombre o el de tu producto
+  title: Rapax # Aca podes poner tu nombre o el de tu producto
 
 # Lista de bloques
 blocks:
   - title: Twitter
     icon: twitter
     url: https://twitter.com/rapax00
-  
-  - title: LinkedIn
-    icon: linkedin
-    url: https://www.linkedin.com/in/gaspar-pelayo
 
   - title: Github
     icon: github
@@ -40,7 +36,7 @@ blocks:
   
   - title: Nostr
     icon: nostr
-    url: https://snort.social/p/npub1zrl8uvj2myhfrgkfzkf5hx35nlpp69w3n43c4ds769dlvhxeh80sexgael
+    url: https://primal.net/p/npub1zrl8uvj2myhfrgkfzkf5hx35nlpp69w3n43c4ds769dlvhxeh80sexgael
 
   - title: Telegram
     icon: telegram
